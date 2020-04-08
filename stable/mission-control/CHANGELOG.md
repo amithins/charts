@@ -1,6 +1,11 @@
 # JFrog Mission-Control Chart Changelog
 All changes to this chart will be documented in this file.
 
+## [3.1.0] - Apr 9, 2020
+* Upgrade Elasticsearch version to 7.6.1
+* Upgrade Mission Control version to 4.3.2
+* **NOTE:** If you have externalized elasticsearch, Mission Control version 4.3.x and above is not compatible with Elasticsearch version 6.x. Please upgrade your elasticsearch to 7.6.1 to work with Mission Control 4.3.x.
+
 ## [3.0.22] - Mar 30, 2020
 * Readme fixes
 
